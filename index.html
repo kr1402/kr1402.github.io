@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+
+     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EconBlogSite</title>
+  </head>
+  <body>
+    <header>
+      <!-- the header goes here -->
+      <h1 id="logo">EconBlog</h1>
+      <nav>
+        <ul id="nav-ul">
+          <li>
+            <a href="" class="navbutton">Home</a>
+          </li>
+          <li>
+            <a href="" class="navbutton">About us</a>
+          </li>
+          <li>
+            <a href="" class="navbutton">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="main-content">
+        <article>
+          <header>
+            <!-- article header goes here -->
+            <h2>Influential Economists and their theories</h2>
+            <h3>Reading time: 5 mins</h3>
+          </header>
+          <main>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              maiores voluptate veritatis odio dolore, expedita quas deserunt
+              laborum voluptates totam eligendi ipsa, quisquam quibusdam nisi
+              nihil natus quis? Ea, autem.
+            </p>
+            <blockquote>
+              <cite>
+                "Capitalism is the astounding belief that the most wickedest of
+                men will do the most wickedest of things for the greatest good
+                of everyone." - JM Keynes</cite
+              >
+            </blockquote>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+              doloremque voluptate non, deserunt quas reprehenderit in hic rerum
+              rem error quisquam incidunt, sint voluptatibus suscipit quo harum
+              dolorem voluptates illo.
+            </p>
+          </main>
+          <footer>
+            <h4>Author: Keira Rodgers</h4>
+            <img
+              src="https://miro.medium.com/v2/resize:fit:394/format:webp/1*MQBY52NZH2oZuOe2xuEqwg.jpeg"
+              alt="Invisible hand- Adam Smith"
+            />
+            <h4>Posted: 11.9.24</h4>
+            <a href="https://www.linkedin.com/in/keira-rodgers/" target="_blank"
+              >authors linkdin</a
+            >
+          </footer>
+        </article>
+
+        <aside>
+          <section>
+            <h4>Filter by Economist</h4>
+            <nav>
+              <ul>
+                <li><a href=""></a>Friedman</li>
+                <li><a href=""></a>Chomsky</li>
+                <li><a href=""></a>Keynes</li>
+              </ul>
+            </nav>
+          </section>
+          <section>
+            <h4>Filter by category</h4>
+            <nav>
+              <ul>
+                <li><a href="">Macroeconomics</a></li>
+                <li><a href="">Microeconomics</a></li>
+                <li><a href="">Statistics</a></li>
+                <li><a href="">Mathematics</a></li>
+              </ul>
+            </nav>
+          </section>
+        </aside>
+      </div>
+
+      <!-- main content of the web goes here g -->
+
+      <hr />
+      <h2>Sign up for our newsletter!</h2>
+      <form action="">
+        <label for="first_name">First name:</label>
+        <input type="text" id="first_name" name="first_name" required />
+        <br />
+        <br />
+
+        <label for="last_name">Last name:</label>
+        <input type="text" id="last_name" name="last_name" required />
+        <br />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br />
+        <br />
+
+        <label for="favourite_economist">Favourite Economist:</label>
+        <input
+          type="radio"
+          id="Keynes"
+          name="favourite_economist"
+          value="Keynes"
+        />
+        <label for="Keynes">Keynes</label>
+        <input
+          type="radio"
+          id="Friedman"
+          name="favourite_economist"
+          value="Friedman"
+        />
+        <label for="Friedman">Friedman</label>
+        <input
+          type="radio"
+          id="Chomsky"
+          name="favourite_economist"
+          value="Chomsky"
+        />
+        <label for="Chomsky">Chomsky</label>
+        <input
+          type="radio"
+          id="Smith"
+          name="favourite_economist"
+          value="Smith"
+        />
+        <label for="Smith">Smith</label>
+        <input
+          type="radio"
+          id="Other"
+          name="favourite_economist"
+          value="Other"
+        />
+        <label for="Other">Other</label>
+        <br />
+        <br />
+
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+          <option value="england">England</option>
+          <option value="scotland">Scotland</option>
+          <option value="wales">Wales</option>
+          <option value="northern_ireland">Northern Ireland</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="bio">Biography:</label>
+        <textarea name="bio" id="bio" cols="30" rows="7"></textarea>
+        <br />
+        <br />
+
+        <input type="checkbox" name="subscribe" id="subscribe" />
+        <label for="subscibe">Subscribe to our newsletter!</label>
+        <br />
+        <br />
+
+        <input type="submit" value="Send" />
+      </form>
+      <hr />
+    </main>
+    <footer>
+      <h2>BrightBlogSite</h2>
+      <section>
+        <nav>
+          <ul id="footer-ul">
+            <div>
+              <li><a href="">Home</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Careers</a></li>
+            </div>
+            <div>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms & conditions</a></li>
+              <li><a href="">Cookie policy</a></li>
+            </div>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+  </body>
+</html>
